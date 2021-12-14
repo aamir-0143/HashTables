@@ -40,8 +40,13 @@ namespace HashTables
             hash.Add("17", "avoidable");
             hash.Add("18", "situation");
 
-            string hash6 = hash.Get("18");
-            Console.WriteLine("18th index value: " + hash6);
+            //string hash6 = hash.Get("18");
+            //Console.WriteLine("18th index value: " + hash6);
+
+
+            hash.Remove("17");
+            string hash17 = hash.Get("17");
+            Console.WriteLine("17th index value: " + hash17);
 
 
 
